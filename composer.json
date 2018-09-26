@@ -22,6 +22,9 @@
       "WyriHaximus\\Tests\\Recoil\\": "tests/"
     }
   },
+  "suggest": {
+    "wyrihaximus/recoil-queue-caller-pool": "Infinitely scale coroutines as needed"
+  },
   "config": {
     "sort-packages": true,
     "platform": {
