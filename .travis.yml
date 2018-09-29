@@ -3,8 +3,6 @@ sudo: required
 
 language: php
 
-php: 7.3.0RC1
-
 ## package required for 7.3.0RC1
 addons:
  apt:
