@@ -7,7 +7,7 @@ language: php
 addons:
  apt:
   packages:
-  - libzip4
+    - libzip4
 
 ## Cache composer bits
 cache:
