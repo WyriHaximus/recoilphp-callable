@@ -1,4 +1,12 @@
+dist: xenial
+
 language: php
+
+## package required for 7.3.0RC1
+addons:
+ apt:
+  packages:
+  - libzip4
 
 ## Cache composer bits
 cache:
@@ -14,6 +22,12 @@ matrix:
     - php: 7.2
       env:
         - dropPlatform=false
+    - php: 7.3snapshot
+      env:
+        - dropPlatform=false
+    - php: 7.3.0RC1
+      env:
+        - dropPlatform=false
     - php: nightly
       env:
         - dropPlatform=false
@@ -22,6 +36,14 @@ matrix:
         - dependencies=lowest
         - dropPlatform=false
     - php: 7.2
+      env:
+        - dependencies=lowest
+        - dropPlatform=false
+    - php: 7.3snapshot
+      env:
+        - dependencies=lowest
+        - dropPlatform=false
+    - php: 7.3.0RC1
       env:
         - dependencies=lowest
         - dropPlatform=false
@@ -34,6 +56,14 @@ matrix:
         - dependencies=highest
         - dropPlatform=false
     - php: 7.2
+      env:
+        - dependencies=highest
+        - dropPlatform=false
+    - php: 7.3snapshot
+      env:
+        - dependencies=highest
+        - dropPlatform=false
+    - php: 7.3.0RC1
       env:
         - dependencies=highest
         - dropPlatform=false
