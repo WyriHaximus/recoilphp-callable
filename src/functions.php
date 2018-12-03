@@ -10,7 +10,7 @@ use function ApiClients\Tools\Rx\observableFromArray;
 function callableWrapper(QueueCallerInterface $queueCaller, callable $callable): callable
 {
     return function (...$args) use ($queueCaller, $callable) {
-        return new Promise(function ($resolve, $reject) use ($queueCaller, $callable, $args) {
+        return new Promise(function ($resolve, $reject) use ($queueCaller, $callable, $args): void {
             $call = new Call($callable, ...$args);
             $call->wait($resolve, $reject);
             $queueCaller->call(observableFromArray([
