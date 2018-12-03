@@ -8,9 +8,12 @@ use Recoil\React\ReactKernel;
 use WyriHaximus\Recoil\CallableWrapper;
 use WyriHaximus\Recoil\QueueCaller;
 
+/**
+ * @internal
+ */
 final class CallableWrapperTest extends TestCase
 {
-    public function testBasic()
+    public function testBasic(): void
     {
         $loop = Factory::create();
         $kernel = ReactKernel::create($loop);

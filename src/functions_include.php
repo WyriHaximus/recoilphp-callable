@@ -3,7 +3,7 @@
 namespace WyriHaximus\React;
 
 // @codeCoverageIgnoreStart
-if (!function_exists('WyriHaximus\Recoil\callableWrapper')) {
+if (!\function_exists('WyriHaximus\Recoil\callableWrapper')) {
     require __DIR__ . '/functions.php';
 }
 // @codeCoverageIgnoreEnd
