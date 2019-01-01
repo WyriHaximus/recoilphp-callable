@@ -9,7 +9,7 @@
     "wyrihaximus/recoil-queue-caller": "^2.1"
   },
   "require-dev": {
-    "api-clients/test-utilities": "^5.1"
+    "api-clients/test-utilities": "^5.4"
   },
   "autoload": {
     "psr-4": {
