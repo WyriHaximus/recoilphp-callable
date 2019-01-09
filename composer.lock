@@ -544,16 +544,16 @@
         },
         {
             "name": "wyrihaximus/rx-recoil-looper",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-rxphp-recoilphp-looper.git",
-                "reference": "b8e15dd4ebdf0e8648af0936d3e150b161cb967a"
+                "reference": "ef6151ca926fcb1e45b4b8a60c5ba8617a1f258a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-rxphp-recoilphp-looper/zipball/b8e15dd4ebdf0e8648af0936d3e150b161cb967a",
-                "reference": "b8e15dd4ebdf0e8648af0936d3e150b161cb967a",
+                "url": "https://api.github.com/repos/WyriHaximus/php-rxphp-recoilphp-looper/zipball/ef6151ca926fcb1e45b4b8a60c5ba8617a1f258a",
+                "reference": "ef6151ca926fcb1e45b4b8a60c5ba8617a1f258a",
                 "shasum": ""
             },
             "require": {
@@ -565,7 +565,7 @@
                 "recoil/recoil": "^1.0"
             },
             "require-dev": {
-                "api-clients/test-utilities": "^4.2",
+                "api-clients/test-utilities": "^5.4",
                 "ringcentral/psr7": "^1.2"
             },
             "type": "library",
@@ -588,7 +588,7 @@
                 }
             ],
             "description": "Looper functions for while and foreach around rxphp using recoil",
-            "time": "2018-08-02T06:08:06+00:00"
+            "time": "2019-01-03T20:42:34+00:00"
         }
     ],
     "packages-dev": [
