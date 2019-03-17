@@ -2,10 +2,10 @@
 
 namespace WyriHaximus\React;
 
+use function ApiClients\Tools\Rx\observableFromArray;
 use React\Promise\Promise;
 use WyriHaximus\Recoil\Call;
 use WyriHaximus\Recoil\QueueCallerInterface;
-use function ApiClients\Tools\Rx\observableFromArray;
 
 function callableWrapper(QueueCallerInterface $queueCaller, callable $callable): callable
 {
