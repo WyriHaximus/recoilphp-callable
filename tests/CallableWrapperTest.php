@@ -29,5 +29,6 @@ final class CallableWrapperTest extends TestCase
         $thirteen = $this->await($promise, $loop);
 
         self::assertSame(13, $thirteen);
+        self::assertSame(0, gc_collect_cycles());
     }
 }
